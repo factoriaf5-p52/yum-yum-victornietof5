@@ -5,6 +5,8 @@
     --orange: #f57207;
     --green: #19c003;
     --prueba: #9a07ad;
+    --veramari: #9acd32;
+
 
 }
 @font-face {
@@ -20,27 +22,66 @@
          url('intro-black-webfont.woff') format('woff');
     font-weight: 900;
     font-style: normal;
+
+}
+.contenedor{
+    width: 330px;
+    margin-top: 0px;
+    margin-right:auto;
+    margin-bottom: 20px;
+    margin-left:20px;
+    
 }
 h1 {
     text-align:left;
-    color:var(--prueba);
+    color:var(--blanco);
+    text-align: center;
 }
 
-h2 {
+.subtitulos {
     color:var(--orange);
+    text-align: center;
+    font-size: 40px;
 }
 
 .how {
     color:var(--negro);
+    font-size: 40px;
 }
 
 .objetive {
     color:var(--prueba);
+    font-size: 40px;
 }
 
 .about{
     color: black;
+    font-size: 20px;
+    
 }
-.copirin span{
+.copirin span {
     color:var(--green);
+}
+
+.form-pedido {
+    background-color:var(--veramari);
+    text-align:center;
+    
+}
+.nav-enlases a{
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: var(--gris);
+}
+
+.bot-pedido {
+    display: flex;
+     font-size: 25px;
+     color: var(orange);
+   }
+
+.input{
+    display: flex;
 }
