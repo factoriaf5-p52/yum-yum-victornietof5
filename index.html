@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preload" href="/styles.css" as="style"
     <title>Document</title>
 </head>
 
@@ -16,13 +17,16 @@
       <img src="images/hamburger.svg" height="30px" > 
       <img src="images/cart.svg" height="30px">
       <p>Local Cuisine Delivered</p>
+      
     </header>
       
     <main>
 
-      <h1>ORDER FROM RESTAURANTS AROUND YOU</h1>
-
+      
       <form>    
+        <fieldset>
+          
+          <h1>FROM RESTAURANTS AROUND YOU</h1> 
         
         <div>
           <img src="images/pin.svg" height="20px">          
@@ -37,7 +41,7 @@
         <div>
           <input type="submit" value="Find a food">  
         </div>
-                    
+       </fieldset>            
                
         
       </form>
@@ -48,7 +52,7 @@
       <h2>How  it works?</h2>
 
       <section>
-        <h2>1. Search</h2>
+        <h2 class="how">1. Search</h2>
         <p>Maecenas nec odio et ante 
         tincidunt tempus. Donec vitae sapien ut libero 
         venenatisfaucibus.</p>
@@ -56,7 +60,7 @@
       </section>
 
       <section>
-        <h2>2. Order</h2>
+        <h2 class="how">2. Order</h2>
         <p>Maecenas nec odio et ante 
           tincidunt tempus. Donec vitae sapien ut libero 
           venenatisfaucibus.</p>
@@ -64,7 +68,7 @@
       </section>
 
       <section>
-        <h2>3 . Eat</h2>
+        <h2 class="how">3 . Eat</h2>
         <p>Maecenas nec odio et ante 
           tincidunt tempus. Donec vitae sapien ut libero 
           venenatisfaucibus.</p>
@@ -149,29 +153,29 @@
     <header>
 
       <section>
-       <img src="images/phone.svg" height="70px">
-       <h2>EASY ONLINE</h2>
+       <img src="images/phone.svg" height="70px" >
+       <h2 class="objetive">EASY ONLINE</h2>
        <p>No need to pick up the phone. Quick and accurate 
         ordering is here</p>
       </section>
 
       <section>
         <img src="images/chicken.svg" height="70px">
-       <h2>12000+MENUS</h2>
+       <h2 class="objetive">12000+MENUS</h2>
        <p>Discovery new places - order your
         usual and throw away those paper</p>
       </section>
 
       <section>
         <img src="images/percent.svg" height="70px">
-       <h2>DISCOUN TS&DEALS</h2>
+       <h2 class="objetive">DISCOUN TS&DEALS</h2>
        <p>Get exclusive offers and save on your
         delivery favorites</p> 
       </section>
        
       <section>
         <img src="images/mobile.svg" height="70px">
-       <h2>ANYTIME, ANYWHER</h2>
+       <h2 class="objetive">ANYTIME, ANYWHER</h2>
        <p>On-the-go? Che out our conveniant apps for iOS</p>
       </section>
 
@@ -251,7 +255,7 @@
 
     <section>
 
-      <h2>GET TO KNOW US</h2>
+      <h2 class="about">GET TO KNOW US</h2>
 
       <nav>
         <a href="enlases.html"> About AlaCarte</a>
@@ -273,7 +277,7 @@
     
     <section>
 
-      <h2>BUSSINESS SOLUTIONS</h2>
+      <h2 class="about">BUSSINESS SOLUTIONS</h2>
 
       <nav>
         <a href="enlases.html"> Join Our Restaurant</a>
@@ -291,7 +295,7 @@
 
     <section>
 
-      <h2>SOCIAL</h2>
+      <h2 class="about">SOCIAL</h2>
 
       <nav>
         <a href="enlases.html"> Facebook</a>
@@ -309,7 +313,7 @@
 
     <section>
 
-      <h2>CONTACT US</h2>
+      <h2 class="about">CONTACT US</h2>
 
       <nav>
         <a href="enlases.html">Contact US</a>
@@ -327,7 +331,7 @@
 
 
     <footer>
-      <p>© 2014 Yum Yum With Love by victor Nieto</p><!--copiring alt+0169-->
+      <p class="copirin">© 2014 Yum Yum With Love by <span>victor Nieto</span> </p><!--copiring alt+0169-->
       
       <nav>
         <a href="enlases.html"> terms</a>

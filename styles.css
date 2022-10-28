@@ -1,0 +1,46 @@
+:root{
+    --blanco: #ffffff;
+    --negro: #212121;
+    --gris: #636060;
+    --orange: #f57207;
+    --green: #19c003;
+    --prueba: #9a07ad;
+
+}
+@font-face {
+    font-family: 'Intro';
+    src: url('intro-regular-webfont.woff2') format('woff2'),
+         url('intro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Intro';
+    src: url('intro-black-webfont.woff2') format('woff2'),
+         url('intro-black-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+h1 {
+    text-align:left;
+    color:var(--prueba);
+}
+
+h2 {
+    color:var(--orange);
+}
+
+.how {
+    color:var(--negro);
+}
+
+.objetive {
+    color:var(--prueba);
+}
+
+.about{
+    color: black;
+}
+.copirin span{
+    color:var(--green);
+}
